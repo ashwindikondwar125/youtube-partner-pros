@@ -1,0 +1,173 @@
+{
+  "channels": [
+    {
+      "slug": "moving-to-las-vegas",
+      "handle": "@movingtolasvegasnevada",
+      "name": "Moving to Las Vegas",
+      "client": "Mark Pepe",
+      "niche": "Real Estate & Relocation",
+      "services": [
+        "Strategy",
+        "Editing",
+        "Thumbnails",
+        "SEO"
+      ],
+      "for_testimonial": true,
+      "channelUrl": "https://www.youtube.com/@movingtolasvegasnevada",
+      "avatarFile": "moving-to-las-vegas.jpg",
+      "videos": [
+        {
+          "id": "shn4kQS-fBY",
+          "title": "Cadence VS Inspirada Which Henderson, NV community is the better?",
+          "thumbnailFile": "moving-to-las-vegas-1.jpg",
+          "watchUrl": "https://www.youtube.com/watch?v=shn4kQS-fBY",
+          "embedUrl": "https://www.youtube.com/embed/shn4kQS-fBY"
+        },
+        {
+          "id": "AhqUDSI9xpw",
+          "title": "5 Reasons people Are Leaving Las Vegas",
+          "thumbnailFile": "moving-to-las-vegas-2.jpg",
+          "watchUrl": "https://www.youtube.com/watch?v=AhqUDSI9xpw",
+          "embedUrl": "https://www.youtube.com/embed/AhqUDSI9xpw"
+        }
+      ]
+    },
+    {
+      "slug": "w-group-real-estate",
+      "handle": "@yourtriadncrealtor",
+      "name": "The W Group Real Estate",
+      "client": "Micaela Wall",
+      "niche": "Luxury Real Estate",
+      "services": [
+        "Thumbnails",
+        "Editing",
+        "Channel branding"
+      ],
+      "for_testimonial": false,
+      "channelUrl": "https://www.youtube.com/@yourtriadncrealtor",
+      "avatarFile": "w-group-real-estate.jpg",
+      "videos": [
+        {
+          "id": "6XV4LoAHGJA",
+          "title": "Pfafftown, NC Housing Market Update: August 2026 | No middle lane?",
+          "thumbnailFile": "w-group-real-estate-1.jpg",
+          "watchUrl": "https://www.youtube.com/watch?v=6XV4LoAHGJA",
+          "embedUrl": "https://www.youtube.com/embed/6XV4LoAHGJA"
+        },
+        {
+          "id": "tkEGS5GOWkU",
+          "title": "Lewisville, NC Housing Market Update: August 2026 | The Busiest SLOW Market We've Ever Seen",
+          "thumbnailFile": "w-group-real-estate-2.jpg",
+          "watchUrl": "https://www.youtube.com/watch?v=tkEGS5GOWkU",
+          "embedUrl": "https://www.youtube.com/embed/tkEGS5GOWkU"
+        }
+      ]
+    },
+    {
+      "slug": "investor-accelerator",
+      "handle": "@theinvestoraccelerator",
+      "name": "The Investor Accelerator",
+      "client": "Jason Pizzino",
+      "niche": "Finance & Investing",
+      "services": [
+        "Editing",
+        "Thumbnails",
+        "Content packaging"
+      ],
+      "for_testimonial": false,
+      "channelUrl": "https://www.youtube.com/@theinvestoraccelerator",
+      "avatarFile": "investor-accelerator.jpg",
+      "videos": [
+        {
+          "id": "7YpVKhMm9K4",
+          "title": "This ALWAYS Happens Before a Housing Crash",
+          "thumbnailFile": "investor-accelerator-1.jpg",
+          "watchUrl": "https://www.youtube.com/watch?v=7YpVKhMm9K4",
+          "embedUrl": "https://www.youtube.com/embed/7YpVKhMm9K4"
+        },
+        {
+          "id": "NYCvGPZJtMo",
+          "title": "The Australian Property Market is Actually Collapsing",
+          "thumbnailFile": "investor-accelerator-2.jpg",
+          "watchUrl": "https://www.youtube.com/watch?v=NYCvGPZJtMo",
+          "embedUrl": "https://www.youtube.com/embed/NYCvGPZJtMo"
+        }
+      ]
+    },
+    {
+      "slug": "risk-takers",
+      "handle": "@officialrisktakers",
+      "name": "Risk Takers",
+      "client": "Risk Takers Team",
+      "niche": "Business & Entrepreneurship",
+      "services": [
+        "Editing",
+        "Thumbnails",
+        "YouTube SEO"
+      ],
+      "for_testimonial": false,
+      "channelUrl": "https://www.youtube.com/@officialrisktakers",
+      "avatarFile": "risk-takers.jpg",
+      "videos": [
+        {
+          "id": "tcz9ytBQvO0",
+          "title": "Bitcoin's Next Buyer Is So Obvious | Ryan Rasmussen, Bitwise",
+          "thumbnailFile": "risk-takers-1.jpg",
+          "watchUrl": "https://www.youtube.com/watch?v=tcz9ytBQvO0",
+          "embedUrl": "https://www.youtube.com/embed/tcz9ytBQvO0"
+        },
+        {
+          "id": "YIixALMWGkQ",
+          "title": "The Fed Is Quietly Suppressing Interest Rates | Michael Howell",
+          "thumbnailFile": "risk-takers-2.jpg",
+          "watchUrl": "https://www.youtube.com/watch?v=YIixALMWGkQ",
+          "embedUrl": "https://www.youtube.com/embed/YIixALMWGkQ"
+        }
+      ]
+    }
+  ],
+  "workThumbnails": [
+    {
+      "file": "work-vegas-vs-florida.jpg",
+      "title": "Las Vegas vs Florida",
+      "tag": "Moving to Las Vegas"
+    },
+    {
+      "file": "work-crash-time.jpg",
+      "title": "Crash Time?",
+      "tag": "The Investor Accelerator"
+    },
+    {
+      "file": "work-6-figure-realtor.jpg",
+      "title": "6 Figure Realtor",
+      "tag": "The W Group Real Estate"
+    },
+    {
+      "file": "work-moving-tips.jpg",
+      "title": "Tips for Moving Out of State",
+      "tag": "Moving to Las Vegas"
+    }
+  ],
+  "proof": [
+    {
+      "file": "skyler-email.jpg",
+      "label": "Client feedback \u2014 Skyler Christian",
+      "caption": "Email confirming strategy insight and editing/thumbnail partnership"
+    },
+    {
+      "file": "skyler-paypal.jpg",
+      "label": "Payment \u2014 Skyler Christian",
+      "caption": "PayPal invoice payment of $200 USD"
+    },
+    {
+      "file": "mark-pepe-paypal.jpg",
+      "label": "Payment \u2014 Mark Pepe",
+      "caption": "PayPal invoice payment of $735 USD"
+    },
+    {
+      "file": "joseph-wise.jpg",
+      "label": "Payment \u2014 Joseph Paul Manausa",
+      "caption": "Wise transfer of $1,000 USD"
+    }
+  ]
+}

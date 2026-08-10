@@ -1,9 +1,10 @@
+import { ShieldCheck } from "lucide-react";
 import { proofItems } from "@/config/site";
 import { Reveal } from "./Reveal";
 
 export function Proof() {
   return (
-    <section className="border-t border-border bg-secondary/50 py-20 md:py-28">
+    <section className="border-t border-border py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <Reveal className="max-w-3xl">
           <p className="eyebrow">Proof</p>
@@ -11,7 +12,7 @@ export function Proof() {
             Don't Take Our Word For It.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
-            Real feedback from people who have trusted us with their content and growth.
+            Real client feedback and verified payments — shown as individual screenshots.
           </p>
         </Reveal>
 
@@ -19,22 +20,23 @@ export function Proof() {
           {proofItems.map((item, i) => (
             <Reveal as="li" key={item.label} delay={(i % 2) * 80}>
               <figure className="card-surface overflow-hidden">
-                <div className="grid aspect-[4/3] place-items-center border-b border-border bg-secondary/60 p-6 text-center">
-                  {item.imageUrl ? (
-                    <img
-                      src={item.imageUrl}
-                      alt={item.caption}
-                      loading="lazy"
-                      className="h-full w-full object-contain"
-                    />
-                  ) : (
-                    <span className="text-xs uppercase tracking-[0.16em] text-muted-foreground">
-                      {item.label}
-                    </span>
-                  )}
+                <div className="relative aspect-[4/3] overflow-hidden border-b border-border bg-secondary/40">
+                  <img
+                    src={item.imageUrl}
+                    alt={item.label}
+                    loading="lazy"
+                    className="h-full w-full object-contain p-3"
+                  />
+                  <div className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-card/90 px-3 py-1.5 text-xs font-medium text-accent shadow-sm backdrop-blur-sm">
+                    <ShieldCheck className="h-3.5 w-3.5" aria-hidden />
+                    Verified
+                  </div>
                 </div>
-                <figcaption className="px-6 py-4 text-sm text-muted-foreground">
-                  {item.caption}
+                <figcaption className="px-6 py-5">
+                  <p className="text-sm font-medium">{item.label}</p>
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                    {item.caption}
+                  </p>
                 </figcaption>
               </figure>
             </Reveal>
