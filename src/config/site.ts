@@ -1,4 +1,3 @@
-import avatarInvestor from "@/assets/avatars/investor-accelerator.jpg";
 import avatarVegas from "@/assets/avatars/moving-to-las-vegas.jpg";
 import avatarRisk from "@/assets/avatars/risk-takers.jpg";
 import avatarSkyler from "@/assets/avatars/skyler-christian.jpeg";
@@ -8,8 +7,6 @@ import avatarVickyKyle from "@/assets/avatars/living-in-las-vegas.jpg";
 import thumbTim1 from "@/assets/portfolio/tim-trevathan-1.jpg.asset.json";
 import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
-import thumbInvestor1 from "@/assets/portfolio/investor-accelerator-1.jpg";
-import thumbInvestor2 from "@/assets/portfolio/investor-accelerator-2.jpg";
 import thumbRisk1 from "@/assets/portfolio/risk-takers-1.jpg";
 import thumbRisk2 from "@/assets/portfolio/risk-takers-2.jpg";
 import thumbWGroup1 from "@/assets/portfolio/w-group-real-estate-1.jpg";
