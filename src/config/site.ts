@@ -120,30 +120,6 @@ export const channels: ChannelPortfolio[] = [
     ],
   },
   {
-    name: "The Investor Accelerator",
-    client: "Jason Pizzino",
-    niche: "Finance & Investing",
-    channelUrl: "https://www.youtube.com/@theinvestoraccelerator",
-    avatarUrl: avatarInvestor,
-    services: ["Editing", "Thumbnails", "Content packaging"],
-    videos: [
-      {
-        id: "7YpVKhMm9K4",
-        title: "This ALWAYS Happens Before a Housing Crash",
-        thumbnailUrl: thumbInvestor1,
-        watchUrl: "https://www.youtube.com/watch?v=7YpVKhMm9K4",
-        embedUrl: "https://www.youtube.com/embed/7YpVKhMm9K4?autoplay=1&rel=0",
-      },
-      {
-        id: "NYCvGPZJtMo",
-        title: "The Australian Property Market is Actually Collapsing",
-        thumbnailUrl: thumbInvestor2,
-        watchUrl: "https://www.youtube.com/watch?v=NYCvGPZJtMo",
-        embedUrl: "https://www.youtube.com/embed/NYCvGPZJtMo?autoplay=1&rel=0",
-      },
-    ],
-  },
-  {
     name: "Risk Takers",
     client: "Risk Takers Team",
     niche: "Business & Entrepreneurship",
