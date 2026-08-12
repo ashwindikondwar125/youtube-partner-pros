@@ -1,4 +1,3 @@
-import avatarInvestor from "@/assets/avatars/investor-accelerator.jpg";
 import avatarVegas from "@/assets/avatars/moving-to-las-vegas.jpg";
 import avatarRisk from "@/assets/avatars/risk-takers.jpg";
 import avatarSkyler from "@/assets/avatars/skyler-christian.jpeg";
@@ -8,8 +7,6 @@ import avatarVickyKyle from "@/assets/avatars/living-in-las-vegas.jpg";
 import thumbTim1 from "@/assets/portfolio/tim-trevathan-1.jpg.asset.json";
 import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
-import thumbInvestor1 from "@/assets/portfolio/investor-accelerator-1.jpg";
-import thumbInvestor2 from "@/assets/portfolio/investor-accelerator-2.jpg";
 import thumbRisk1 from "@/assets/portfolio/risk-takers-1.jpg";
 import thumbRisk2 from "@/assets/portfolio/risk-takers-2.jpg";
 import thumbWGroup1 from "@/assets/portfolio/w-group-real-estate-1.jpg";
@@ -116,30 +113,6 @@ export const channels: ChannelPortfolio[] = [
         thumbnailUrl: thumbWGroup2,
         watchUrl: "https://www.youtube.com/watch?v=tkEGS5GOWkU",
         embedUrl: "https://www.youtube.com/embed/tkEGS5GOWkU?autoplay=1&rel=0",
-      },
-    ],
-  },
-  {
-    name: "The Investor Accelerator",
-    client: "Jason Pizzino",
-    niche: "Finance & Investing",
-    channelUrl: "https://www.youtube.com/@theinvestoraccelerator",
-    avatarUrl: avatarInvestor,
-    services: ["Editing", "Thumbnails", "Content packaging"],
-    videos: [
-      {
-        id: "7YpVKhMm9K4",
-        title: "This ALWAYS Happens Before a Housing Crash",
-        thumbnailUrl: thumbInvestor1,
-        watchUrl: "https://www.youtube.com/watch?v=7YpVKhMm9K4",
-        embedUrl: "https://www.youtube.com/embed/7YpVKhMm9K4?autoplay=1&rel=0",
-      },
-      {
-        id: "NYCvGPZJtMo",
-        title: "The Australian Property Market is Actually Collapsing",
-        thumbnailUrl: thumbInvestor2,
-        watchUrl: "https://www.youtube.com/watch?v=NYCvGPZJtMo",
-        embedUrl: "https://www.youtube.com/embed/NYCvGPZJtMo?autoplay=1&rel=0",
       },
     ],
   },
