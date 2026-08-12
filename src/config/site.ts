@@ -4,6 +4,7 @@ import avatarRisk from "@/assets/avatars/risk-takers.jpg";
 import avatarSkyler from "@/assets/avatars/skyler-christian.jpeg";
 import avatarWGroup from "@/assets/avatars/w-group-real-estate.jpg";
 import avatarTim from "@/assets/avatars/tim-trevathan.jpg.asset.json";
+import avatarVickyKyle from "@/assets/avatars/living-in-las-vegas.jpg";
 import thumbTim1 from "@/assets/portfolio/tim-trevathan-1.jpg.asset.json";
 import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
