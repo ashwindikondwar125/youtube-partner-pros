@@ -4,6 +4,7 @@ import avatarRisk from "@/assets/avatars/risk-takers.jpg";
 import avatarSkyler from "@/assets/avatars/skyler-christian.jpeg";
 import avatarWGroup from "@/assets/avatars/w-group-real-estate.jpg";
 import avatarTim from "@/assets/avatars/tim-trevathan.jpg.asset.json";
+import avatarVickyKyle from "@/assets/avatars/living-in-las-vegas.jpg";
 import thumbTim1 from "@/assets/portfolio/tim-trevathan-1.jpg.asset.json";
 import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
@@ -180,23 +181,23 @@ export type Testimonial = {
 
 export const testimonials: Testimonial[] = [
   {
-    name: "Mark Pepe",
-    channel: "Moving to Las Vegas",
+    name: "Tim Trevathan",
+    channel: "Tim Trevathan - Atlanta Georgia Living",
     quote:
-      "Ashwin has been very helpful in organizing and distributing our content, implementing new strategies based on the data he sees, and optimizing all of our content.",
-    result: "Real estate & relocation channel partner",
-    channelUrl: "https://www.youtube.com/@movingtolasvegasnevada",
-    avatarUrl: avatarVegas,
+      "Since working with Divine Media over the past 3–4 months, my channel has seen significant growth, with a steady increase in organic views and overall audience engagement.",
+    result: "Real estate & relocation content creator",
+    channelUrl: "https://www.youtube.com/@TimTrevathanAtlanta/videos",
+    avatarUrl: avatarTim.url,
     verified: true,
   },
   {
-    name: "Skyler Christian",
-    channel: "TheRealTraderTrainer",
+    name: "Vicky and Kyle",
+    channel: "Living in Las Vegas With Vicky and Kyle",
     quote:
-      "Thanks so much for the great insight! I really appreciate it. I'll be paying for video editing, posting, and thumbnails so that I can start focusing on writing and filming higher quality videos.",
-    result: "Trading education content creator",
-    channelUrl: "https://www.youtube.com/@TheRealTraderTrainer",
-    avatarUrl: avatarSkyler,
+      "Working with Ashwin was one of the best decisions I made. I focus on creating content while the team handles all operational work. Highly recommended!",
+    result: "Las Vegas lifestyle content creators",
+    channelUrl: "https://www.youtube.com/@LivingInLasVegasWithVickyandKy/videos",
+    avatarUrl: avatarVickyKyle,
     verified: true,
   },
 ];

@@ -51,7 +51,7 @@ export function Testimonials() {
                       rel="noopener noreferrer"
                       className="truncate text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-accent hover:underline"
                     >
-                      {t.channel}
+                      View Channel
                     </a>
                   </div>
                 </footer>
