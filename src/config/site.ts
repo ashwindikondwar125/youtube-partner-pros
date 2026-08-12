@@ -3,11 +3,12 @@ import avatarVegas from "@/assets/avatars/moving-to-las-vegas.jpg";
 import avatarRisk from "@/assets/avatars/risk-takers.jpg";
 import avatarSkyler from "@/assets/avatars/skyler-christian.jpeg";
 import avatarWGroup from "@/assets/avatars/w-group-real-estate.jpg";
+import avatarTim from "@/assets/avatars/tim-trevathan.jpg.asset.json";
+import thumbTim1 from "@/assets/portfolio/tim-trevathan-1.jpg.asset.json";
+import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
 import thumbInvestor1 from "@/assets/portfolio/investor-accelerator-1.jpg";
 import thumbInvestor2 from "@/assets/portfolio/investor-accelerator-2.jpg";
-import thumbVegas1 from "@/assets/portfolio/moving-to-las-vegas-1.jpg";
-import thumbVegas2 from "@/assets/portfolio/moving-to-las-vegas-2.jpg";
 import thumbRisk1 from "@/assets/portfolio/risk-takers-1.jpg";
 import thumbRisk2 from "@/assets/portfolio/risk-takers-2.jpg";
 import thumbWGroup1 from "@/assets/portfolio/w-group-real-estate-1.jpg";
@@ -70,26 +71,26 @@ export type ChannelPortfolio = {
 
 export const channels: ChannelPortfolio[] = [
   {
-    name: "Moving to Las Vegas",
-    client: "Mark Pepe",
+    name: "Tim Trevathan - Atlanta Georgia Living",
+    client: "Tim Trevathan",
     niche: "Real Estate & Relocation",
-    channelUrl: "https://www.youtube.com/@movingtolasvegasnevada",
-    avatarUrl: avatarVegas,
+    channelUrl: "https://www.youtube.com/@TimTrevathanAtlanta/videos",
+    avatarUrl: avatarTim.url,
     services: ["Strategy", "Editing", "Thumbnails", "SEO"],
     videos: [
       {
-        id: "shn4kQS-fBY",
-        title: "Cadence VS Inspirada — Which Henderson community is better?",
-        thumbnailUrl: thumbVegas1,
-        watchUrl: "https://www.youtube.com/watch?v=shn4kQS-fBY",
-        embedUrl: "https://www.youtube.com/embed/shn4kQS-fBY?autoplay=1&rel=0",
+        id: "irH-jS_H9og",
+        title: "This Will Be WORSE Than A Housing Market Crash In Atlanta!",
+        thumbnailUrl: thumbTim1.url,
+        watchUrl: "https://www.youtube.com/watch?v=irH-jS_H9og",
+        embedUrl: "https://www.youtube.com/embed/irH-jS_H9og?autoplay=1&rel=0",
       },
       {
-        id: "AhqUDSI9xpw",
-        title: "5 Reasons People Are Leaving Las Vegas",
-        thumbnailUrl: thumbVegas2,
-        watchUrl: "https://www.youtube.com/watch?v=AhqUDSI9xpw",
-        embedUrl: "https://www.youtube.com/embed/AhqUDSI9xpw?autoplay=1&rel=0",
+        id: "sASIYBOtVvU",
+        title: "Atlanta's Biggest Megaprojects (Crazy Changes Coming!)",
+        thumbnailUrl: thumbTim2.url,
+        watchUrl: "https://www.youtube.com/watch?v=sASIYBOtVvU",
+        embedUrl: "https://www.youtube.com/embed/sASIYBOtVvU?autoplay=1&rel=0",
       },
     ],
   },
