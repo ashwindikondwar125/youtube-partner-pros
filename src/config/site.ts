@@ -9,8 +9,6 @@ import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
 import thumbInvestor1 from "@/assets/portfolio/investor-accelerator-1.jpg";
 import thumbInvestor2 from "@/assets/portfolio/investor-accelerator-2.jpg";
-import thumbVegas1 from "@/assets/portfolio/moving-to-las-vegas-1.jpg";
-import thumbVegas2 from "@/assets/portfolio/moving-to-las-vegas-2.jpg";
 import thumbRisk1 from "@/assets/portfolio/risk-takers-1.jpg";
 import thumbRisk2 from "@/assets/portfolio/risk-takers-2.jpg";
 import thumbWGroup1 from "@/assets/portfolio/w-group-real-estate-1.jpg";
