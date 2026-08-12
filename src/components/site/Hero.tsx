@@ -1,5 +1,5 @@
-import workRealtor from "@/assets/portfolio/work-6-figure-realtor.jpg";
-import workVegasFlorida from "@/assets/portfolio/work-vegas-vs-florida.jpg";
+import heroCrash from "@/assets/portfolio/hero-crash-is-coming.jpg.asset.json";
+import heroMoving from "@/assets/portfolio/hero-moving-out-of-state.png.asset.json";
 import { BookButton } from "./BookButton";
 import { Reveal } from "./Reveal";
 
@@ -44,16 +44,16 @@ export function Hero() {
           <div className="grid gap-4 md:grid-cols-2">
             <div className="aspect-video overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
               <img
-                src={workVegasFlorida}
-                alt="Thumbnail design for Moving to Las Vegas"
+                src={heroMoving.url}
+                alt="Thumbnail design: Tips for Moving Out of State"
                 loading="eager"
                 className="h-full w-full object-cover"
               />
             </div>
             <div className="aspect-video overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
               <img
-                src={workRealtor}
-                alt="Thumbnail design for The W Group Real Estate"
+                src={heroCrash.url}
+                alt="Thumbnail design: Crash Is Coming?"
                 loading="eager"
                 className="h-full w-full object-cover"
               />
