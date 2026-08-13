@@ -52,8 +52,6 @@ export function Footer() {
             </ul>
             <ul className="mt-5 space-y-1.5 text-sm text-muted-foreground">
               <li className="truncate">{site.email}</li>
-              <li>{site.phone}</li>
-              <li>{site.location}</li>
             </ul>
           </div>
         </div>
