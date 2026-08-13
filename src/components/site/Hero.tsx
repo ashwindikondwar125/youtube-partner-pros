@@ -64,7 +64,7 @@ export function Hero() {
         <Reveal delay={260}>
           <ul className="mt-12 grid grid-cols-2 gap-y-6 border-t border-border pt-8 md:grid-cols-4">
             {[
-              ["4+", "Channels managed"],
+              ["14+", "Channels managed"],
               ["Strategy", "Built per channel"],
               ["Editing", "Retention-focused"],
               ["Thumbnails", "Designed to earn clicks"],
