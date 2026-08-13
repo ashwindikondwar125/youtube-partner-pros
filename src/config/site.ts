@@ -30,8 +30,6 @@ export const site = {
   tagline: "You create the content. We turn it into a channel that grows.",
   bookingUrl: "https://calendly.com/ashwin-meetings01/new-meeting",
   email: "ashwin.meetings01@gmail.com",
-  phone: "[Insert Phone Number]",
-  location: "[Insert Location]",
   socials: [
     { label: "Email", href: "mailto:ashwin.meetings01@gmail.com" },
   ],
