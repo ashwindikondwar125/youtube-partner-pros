@@ -11,10 +11,10 @@ import thumbRisk1 from "@/assets/portfolio/risk-takers-1.jpg";
 import thumbRisk2 from "@/assets/portfolio/risk-takers-2.jpg";
 import thumbWGroup1 from "@/assets/portfolio/w-group-real-estate-1.jpg";
 import thumbWGroup2 from "@/assets/portfolio/w-group-real-estate-2.jpg";
-import workCrash from "@/assets/portfolio/work-crash-time.jpg";
-import workRealtor from "@/assets/portfolio/work-6-figure-realtor.jpg";
-import workMovingTips from "@/assets/portfolio/work-moving-tips.jpg";
-import workVegasFlorida from "@/assets/portfolio/work-vegas-vs-florida.jpg";
+import workAtlantaFuture from "@/assets/portfolio/work-atlantas-future.jpg.asset.json";
+import workAtlantaCollapse from "@/assets/portfolio/work-atlanta-collapse.jpg.asset.json";
+import workHenderson from "@/assets/portfolio/work-day-in-henderson.png.asset.json";
+import workCrashOrBoom from "@/assets/portfolio/work-crash-or-boom.png.asset.json";
 
 import proofJoseph from "@/assets/proof/joseph-wise.jpg";
 import proofMark from "@/assets/proof/mark-pepe-paypal.jpg";
@@ -182,10 +182,18 @@ export type WorkThumbnail = {
 };
 
 export const workThumbnails: WorkThumbnail[] = [
-  { title: "Las Vegas vs Florida", tag: "Moving to Las Vegas", imageUrl: workVegasFlorida },
-  { title: "Crash Time?", tag: "The Investor Accelerator", imageUrl: workCrash },
-  { title: "6 Figure Realtor", tag: "The W Group Real Estate", imageUrl: workRealtor },
-  { title: "Tips for Moving Out of State", tag: "Moving to Las Vegas", imageUrl: workMovingTips },
+  {
+    title: "Atlanta's Future",
+    tag: "Tim Trevathan - Atlanta Georgia Living",
+    imageUrl: workAtlantaFuture.url,
+  },
+  {
+    title: "Atlanta Collapse",
+    tag: "Tim Trevathan - Atlanta Georgia Living",
+    imageUrl: workAtlantaCollapse.url,
+  },
+  { title: "Day in the Life in Henderson", tag: "Living in Las Vegas", imageUrl: workHenderson.url },
+  { title: "Crash or Boom?", tag: "Real Estate", imageUrl: workCrashOrBoom.url },
 ];
 
 export type ProofItem = { label: string; caption: string; imageUrl: string };
