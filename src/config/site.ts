@@ -3,7 +3,7 @@ import avatarRisk from "@/assets/avatars/risk-takers.jpg";
 import avatarSkyler from "@/assets/avatars/skyler-christian.jpeg";
 import avatarWGroup from "@/assets/avatars/w-group-real-estate.jpg";
 import avatarTim from "@/assets/avatars/tim-trevathan.jpg.asset.json";
-import avatarVickyKyle from "@/assets/avatars/living-in-las-vegas.jpg";
+import avatarVickyKyle from "@/assets/avatars/vicky-kyle.jpg.asset.json";
 import thumbTim1 from "@/assets/portfolio/tim-trevathan-1.jpg.asset.json";
 import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
@@ -170,7 +170,7 @@ export const testimonials: Testimonial[] = [
       "Working with Ashwin was one of the best decisions I made. I focus on creating content while the team handles all operational work. Highly recommended!",
     result: "Las Vegas lifestyle content creators",
     channelUrl: "https://www.youtube.com/@LivingInLasVegasWithVickyandKy/videos",
-    avatarUrl: avatarVickyKyle,
+    avatarUrl: avatarVickyKyle.url,
     verified: true,
   },
 ];
