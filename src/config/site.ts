@@ -33,9 +33,6 @@ export const site = {
   phone: "[Insert Phone Number]",
   location: "[Insert Location]",
   socials: [
-    { label: "Instagram", href: "https://instagram.com/[handle]" },
-    { label: "YouTube", href: "https://youtube.com/@[handle]" },
-    { label: "LinkedIn", href: "https://linkedin.com/company/[handle]" },
     { label: "Email", href: "mailto:ashwin.meetings01@gmail.com" },
   ],
 };
