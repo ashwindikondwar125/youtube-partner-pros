@@ -16,10 +16,10 @@ import workAtlantaCollapse from "@/assets/portfolio/work-atlanta-collapse.jpg.as
 import workHenderson from "@/assets/portfolio/work-day-in-henderson.png.asset.json";
 import workCrashOrBoom from "@/assets/portfolio/work-crash-or-boom.png.asset.json";
 
-import proofJoseph from "@/assets/proof/joseph-wise.jpg";
-import proofMark from "@/assets/proof/mark-pepe-paypal.jpg";
-import proofSkylerEmail from "@/assets/proof/skyler-email.jpg";
-import proofSkylerPaypal from "@/assets/proof/skyler-paypal.jpg";
+import proofSkylerPaypal from "@/assets/proof/proof-1.png.asset.json";
+import proofSkylerEmail from "@/assets/proof/proof-2.png.asset.json";
+import proofMark from "@/assets/proof/proof-3.png.asset.json";
+import proofJoseph from "@/assets/proof/proof-4.png.asset.json";
 
 // ---------------------------------------------------------------------------
 // EDIT EVERYTHING HERE. Brand, links, testimonials, thumbnails, proof, footer.
@@ -200,23 +200,23 @@ export type ProofItem = { label: string; caption: string; imageUrl: string };
 
 export const proofItems: ProofItem[] = [
   {
-    label: "Client feedback — Skyler Christian",
-    caption: "Email confirming strategy insight and editing / thumbnail partnership",
-    imageUrl: proofSkylerEmail,
+    label: "Payment — Skyler Christian",
+    caption: "PayPal invoice #0027 paid — $200.00 USD",
+    imageUrl: proofSkylerPaypal.url,
   },
   {
-    label: "Payment — Skyler Christian",
-    caption: "PayPal invoice payment of $200 USD",
-    imageUrl: proofSkylerPaypal,
+    label: "Client feedback — Skyler Christian",
+    caption: "Email confirming editing, posting and thumbnail partnership",
+    imageUrl: proofSkylerEmail.url,
   },
   {
     label: "Payment — Mark Pepe",
-    caption: "PayPal invoice payment of $735 USD",
-    imageUrl: proofMark,
+    caption: "PayPal invoice #016 paid — $735.00 USD",
+    imageUrl: proofMark.url,
   },
   {
     label: "Payment — Joseph Paul Manausa",
-    caption: "Wise transfer of $1,000 USD",
-    imageUrl: proofJoseph,
+    caption: "Wise transfer received — $1,000 USD",
+    imageUrl: proofJoseph.url,
   },
 ];
