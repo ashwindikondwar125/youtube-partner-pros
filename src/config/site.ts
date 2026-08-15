@@ -1,5 +1,5 @@
 import avatarVegas from "@/assets/avatars/moving-to-las-vegas.jpg";
-import avatarRisk from "@/assets/avatars/risk-takers.jpg";
+import avatarAdrienne from "@/assets/avatars/adriennes-avenue.jpg.asset.json";
 import avatarSkyler from "@/assets/avatars/skyler-christian.jpeg";
 import avatarWGroup from "@/assets/avatars/w-group-real-estate.jpg";
 import avatarTim from "@/assets/avatars/tim-trevathan.jpg.asset.json";
@@ -7,8 +7,8 @@ import avatarVickyKyle from "@/assets/avatars/vicky-kyle.jpg.asset.json";
 import thumbTim1 from "@/assets/portfolio/tim-trevathan-1.jpg.asset.json";
 import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
-import thumbRisk1 from "@/assets/portfolio/risk-takers-1.jpg";
-import thumbRisk2 from "@/assets/portfolio/risk-takers-2.jpg";
+import thumbAdrienne1 from "@/assets/portfolio/adriennes-avenue-1.jpg.asset.json";
+import thumbAdrienne2 from "@/assets/portfolio/adriennes-avenue-2.jpg.asset.json";
 import thumbWGroup1 from "@/assets/portfolio/w-group-real-estate-1.jpg";
 import thumbWGroup2 from "@/assets/portfolio/w-group-real-estate-2.jpg";
 import workAtlantaFuture from "@/assets/portfolio/work-atlantas-future.jpg.asset.json";
@@ -112,26 +112,26 @@ export const channels: ChannelPortfolio[] = [
     ],
   },
   {
-    name: "Risk Takers",
-    client: "Risk Takers Team",
-    niche: "Business & Entrepreneurship",
-    channelUrl: "https://www.youtube.com/@officialrisktakers",
-    avatarUrl: avatarRisk,
+    name: "Adrienne's Avenue",
+    client: "Adrienne",
+    niche: "Retirement & Lifestyle",
+    channelUrl: "https://www.youtube.com/@adriennesavenue/videos",
+    avatarUrl: avatarAdrienne.url,
     services: ["Editing", "Thumbnails", "YouTube SEO"],
     videos: [
       {
-        id: "tcz9ytBQvO0",
-        title: "Bitcoin's Next Buyer Is So Obvious | Ryan Rasmussen",
-        thumbnailUrl: thumbRisk1,
-        watchUrl: "https://www.youtube.com/watch?v=tcz9ytBQvO0",
-        embedUrl: "https://www.youtube.com/embed/tcz9ytBQvO0?autoplay=1&rel=0",
+        id: "NhexveLA_m4",
+        title: "The Retirement Expenses Nobody Warns You About",
+        thumbnailUrl: thumbAdrienne1.url,
+        watchUrl: "https://www.youtube.com/watch?v=NhexveLA_m4",
+        embedUrl: "https://www.youtube.com/embed/NhexveLA_m4?autoplay=1&rel=0",
       },
       {
-        id: "YIixALMWGkQ",
-        title: "The Fed Is Quietly Suppressing Interest Rates | Michael Howell",
-        thumbnailUrl: thumbRisk2,
-        watchUrl: "https://www.youtube.com/watch?v=YIixALMWGkQ",
-        embedUrl: "https://www.youtube.com/embed/YIixALMWGkQ?autoplay=1&rel=0",
+        id: "J88XgXF--BA",
+        title: "Your Best Life Doesn't Cost What You Think",
+        thumbnailUrl: thumbAdrienne2.url,
+        watchUrl: "https://www.youtube.com/watch?v=J88XgXF--BA",
+        embedUrl: "https://www.youtube.com/embed/J88XgXF--BA?autoplay=1&rel=0",
       },
     ],
   },
