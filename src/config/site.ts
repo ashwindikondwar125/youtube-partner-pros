@@ -1,5 +1,5 @@
 import avatarVegas from "@/assets/avatars/moving-to-las-vegas.jpg";
-import avatarRisk from "@/assets/avatars/risk-takers.jpg";
+import avatarAdrienne from "@/assets/avatars/adriennes-avenue.jpg.asset.json";
 import avatarSkyler from "@/assets/avatars/skyler-christian.jpeg";
 import avatarWGroup from "@/assets/avatars/w-group-real-estate.jpg";
 import avatarTim from "@/assets/avatars/tim-trevathan.jpg.asset.json";
@@ -7,8 +7,8 @@ import avatarVickyKyle from "@/assets/avatars/vicky-kyle.jpg.asset.json";
 import thumbTim1 from "@/assets/portfolio/tim-trevathan-1.jpg.asset.json";
 import thumbTim2 from "@/assets/portfolio/tim-trevathan-2.jpg.asset.json";
 
-import thumbRisk1 from "@/assets/portfolio/risk-takers-1.jpg";
-import thumbRisk2 from "@/assets/portfolio/risk-takers-2.jpg";
+import thumbAdrienne1 from "@/assets/portfolio/adriennes-avenue-1.jpg.asset.json";
+import thumbAdrienne2 from "@/assets/portfolio/adriennes-avenue-2.jpg.asset.json";
 import thumbWGroup1 from "@/assets/portfolio/w-group-real-estate-1.jpg";
 import thumbWGroup2 from "@/assets/portfolio/w-group-real-estate-2.jpg";
 import workAtlantaFuture from "@/assets/portfolio/work-atlantas-future.jpg.asset.json";
