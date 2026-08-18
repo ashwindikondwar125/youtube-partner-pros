@@ -1,5 +1,7 @@
-import heroCrash from "@/assets/portfolio/hero-crash-is-coming.jpg.asset.json";
-import heroMoving from "@/assets/portfolio/hero-moving-out-of-state.png.asset.json";
+import { ExternalLink } from "lucide-react";
+import heroDash1 from "@/assets/portfolio/adriennes-avenue-dashboard-1.png.asset.json";
+import heroDash2 from "@/assets/portfolio/adriennes-avenue-dashboard-2.png.asset.json";
+import adrienneAvatar from "@/assets/avatars/adriennes-avenue.jpg.asset.json";
 import { BookButton } from "./BookButton";
 import { Reveal } from "./Reveal";
 
@@ -41,19 +43,36 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={200} className="mt-16 md:mt-20">
+          <div className="mb-5 flex flex-wrap items-center gap-3">
+            <img
+              src={adrienneAvatar.url}
+              alt="Adrienne's Avenue channel avatar"
+              className="h-11 w-11 shrink-0 rounded-full object-cover ring-2 ring-accent/20"
+            />
+            <h2 className="text-lg font-semibold md:text-xl">Adrienne's Avenue</h2>
+            <a
+              href="https://www.youtube.com/@adriennesavenue/videos"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors hover:text-accent/80"
+            >
+              View channel
+              <ExternalLink className="h-3.5 w-3.5" />
+            </a>
+          </div>
           <div className="grid gap-4 md:grid-cols-2">
             <div className="aspect-video overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
               <img
-                src={heroMoving.url}
-                alt="Thumbnail design: Tips for Moving Out of State"
+                src={heroDash1.url}
+                alt="Adrienne's Avenue YouTube Studio dashboard showing 1,857 subscribers"
                 loading="eager"
                 className="h-full w-full object-cover"
               />
             </div>
             <div className="aspect-video overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
               <img
-                src={heroCrash.url}
-                alt="Thumbnail design: Crash Is Coming?"
+                src={heroDash2.url}
+                alt="Adrienne's Avenue YouTube Studio dashboard showing 12,740 subscribers"
                 loading="eager"
                 className="h-full w-full object-cover"
               />
