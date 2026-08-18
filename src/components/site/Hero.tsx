@@ -1,6 +1,6 @@
 import { ExternalLink } from "lucide-react";
-import heroDash1 from "@/assets/portfolio/adriennes-avenue-dashboard-1.png.asset.json";
-import heroDash2 from "@/assets/portfolio/adriennes-avenue-dashboard-2.png.asset.json";
+import heroDash1 from "@/assets/portfolio/adriennes-dash-1.webp.asset.json";
+import heroDash2 from "@/assets/portfolio/adriennes-dash-2.webp.asset.json";
 import adrienneAvatar from "@/assets/avatars/adriennes-avenue.jpg.asset.json";
 import { BookButton } from "./BookButton";
 import { Reveal } from "./Reveal";
@@ -61,20 +61,24 @@ export function Hero() {
             </a>
           </div>
           <div className="grid gap-4 md:grid-cols-2">
-            <div className="aspect-video overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
+            <div className="overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
               <img
                 src={heroDash1.url}
                 alt="Adrienne's Avenue YouTube Studio dashboard showing 1,857 subscribers"
                 loading="eager"
-                className="h-full w-full object-cover"
+                width={1920}
+                height={872}
+                className="h-auto w-full object-contain"
               />
             </div>
-            <div className="aspect-video overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
+            <div className="overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
               <img
                 src={heroDash2.url}
                 alt="Adrienne's Avenue YouTube Studio dashboard showing 12,740 subscribers"
                 loading="eager"
-                className="h-full w-full object-cover"
+                width={1920}
+                height={872}
+                className="h-auto w-full object-contain"
               />
             </div>
           </div>
