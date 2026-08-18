@@ -61,25 +61,35 @@ export function Hero() {
             </a>
           </div>
           <div className="grid gap-4 md:grid-cols-2">
-            <div className="overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
-              <img
-                src={heroDash1.url}
-                alt="Adrienne's Avenue YouTube Studio dashboard showing 1,857 subscribers"
-                loading="eager"
-                width={1920}
-                height={872}
-                className="h-auto w-full object-contain"
-              />
+            <div className="overflow-hidden rounded-3xl border border-border bg-card p-2 shadow-[var(--shadow-lift)]">
+              <div className="overflow-hidden rounded-2xl">
+                <img
+                  src={heroDash1.url}
+                  alt="Adrienne's Avenue YouTube Studio dashboard showing 1,857 subscribers"
+                  loading="eager"
+                  width={1920}
+                  height={872}
+                  className="h-auto w-full object-contain"
+                />
+              </div>
+              <p className="mt-3 text-center text-sm font-medium text-muted-foreground">
+                Started 4 months ago with 1,857 subscribers
+              </p>
             </div>
-            <div className="overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-lift)]">
-              <img
-                src={heroDash2.url}
-                alt="Adrienne's Avenue YouTube Studio dashboard showing 12,740 subscribers"
-                loading="eager"
-                width={1920}
-                height={872}
-                className="h-auto w-full object-contain"
-              />
+            <div className="overflow-hidden rounded-3xl border border-border bg-card p-2 shadow-[var(--shadow-lift)]">
+              <div className="overflow-hidden rounded-2xl">
+                <img
+                  src={heroDash2.url}
+                  alt="Adrienne's Avenue YouTube Studio dashboard showing 12,740 subscribers"
+                  loading="eager"
+                  width={1920}
+                  height={872}
+                  className="h-auto w-full object-contain"
+                />
+              </div>
+              <p className="mt-3 text-center text-sm font-medium text-muted-foreground">
+                Over 12,740+ subscribers after 4 months
+              </p>
             </div>
           </div>
         </Reveal>
