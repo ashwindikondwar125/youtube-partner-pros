@@ -20,8 +20,8 @@ export function Hero() {
         <Reveal className="max-w-4xl">
           <p className="eyebrow">YouTube Growth Partner</p>
           <h1 className="mt-5 text-4xl font-semibold leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">
-            We Help YouTube Channels Grow —{" "}
-            <span className="text-muted-foreground">While You Focus on Creating.</span>
+            Grow Your YouTube Channel -{" "}
+            <span className="text-muted-foreground">Generate More Qualified Leads.</span>
           </h1>
           <p className="mt-7 max-w-2xl border-l-2 border-accent pl-4 text-base leading-relaxed text-foreground md:text-lg">
             Take your brand identity to the next level with a YouTube presence built to stand out,
