@@ -24,8 +24,8 @@ export function Hero() {
             <span className="text-muted-foreground">Generate More Qualified Leads.</span>
           </h1>
           <p className="mt-7 max-w-2xl border-l-2 border-accent pl-4 text-base leading-relaxed text-foreground md:text-lg">
-            Take your brand identity to the next level with a YouTube presence built to stand out,
-            build authority, and grow organically.
+            We help Real estate agents/broker, coaches, advisors, and business owners grow their
+            YouTube presence, attract the right audience, and turn attention into qualified leads.
           </p>
         </Reveal>
 
