@@ -38,8 +38,8 @@ function Index() {
         <HowWeGrow />
         <Portfolio />
         <Framework />
-        <Services />
         <Testimonials />
+        <Services />
         <Proof />
         <FinalCta />
       </main>
@@ -53,4 +53,5 @@ function Index() {
     </div>
   );
 }
+
 
