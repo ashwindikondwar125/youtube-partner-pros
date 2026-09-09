@@ -36,9 +36,9 @@ function Index() {
       <main>
         <Hero />
         <HowWeGrow />
+        <Portfolio />
         <Framework />
         <Services />
-        <Portfolio />
         <Testimonials />
         <Proof />
         <FinalCta />
@@ -53,3 +53,4 @@ function Index() {
     </div>
   );
 }
+
