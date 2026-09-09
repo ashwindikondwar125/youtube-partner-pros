@@ -40,9 +40,10 @@ export const navItems = [
   { label: "How We Grow", href: "#how-we-grow" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Our Process", href: "#process" },
-  { label: "Services", href: "#services" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "Services", href: "#services" },
 ];
+
 
 
 export type PortfolioVideo = {
