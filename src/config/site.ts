@@ -38,11 +38,12 @@ export const site = {
 export const navItems = [
   { label: "Home", href: "#home" },
   { label: "How We Grow", href: "#how-we-grow" },
+  { label: "Portfolio", href: "#portfolio" },
   { label: "Our Process", href: "#process" },
   { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
   { label: "Testimonials", href: "#testimonials" },
 ];
+
 
 export type PortfolioVideo = {
   id: string;
